@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>International Social Health Organization</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/fav-icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/fav-icon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/fav-icon/favicon-16x16.png" sizes="16x16">
+
+
+
+</head>
+
+<body>
+
+    < class="boxed_wrapper">
+
+
+        <div class="top-bar" style="background-color: #5c9ab9;">
+            <div class="container">
+                <div class="clearfix">
+
+                    <ul class="float_left top-bar-info">
+                        <li><i class="icon-phone-call"></i>Phone: <a href="tel:+91 94508 35941">+91 94508 35941</a></li>
+                        <!-- <li><i class="icon-e-mail-envelope"></i>Supportus@Ecogreen.com</li> -->
+                    </ul>
+                    <div class="right-column float_right">
+                        <!--
+                    <div id="polyglotLanguageSwitcher" class="">
+                        <form action="#">
+                            <select id="polyglot-language-options">
+                                <option id="en" value="en" selected>Eng</option>
+                                <option id="fr" value="fr">Fre</option>
+                                <option id="de" value="de">Ger</option>
+                                <option id="it" value="it">Ita</option>
+                                <option id="es" value="es">Spa</option>
+                            </select>
+                        </form>
+                    </div>
+                    <ul class="social list_inline">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-feed"></i></a></li>
+                    </ul>-->
+                        <button class="thm-btn donate-box-btn">donate now</button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <section class="theme_menu stricky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="main-logo">
+                            <a href="index.php"><img src="images/logo/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 menu-column">
+                        <nav class="menuzord" id="main_menu">
+                            <ul class="menuzord-menu">
+                                <li><a href="index.php">Home</a></li>
+                                <!-- <li><a href="about.html">About</a>
+                                <ul class="dropdown">
+                                    <li><a href="aboutus.html"></a></li>
+                                    </ul>
+                            </li> -->
+                                <li><a href="#">About Us</a>
+                                    <ul class="dropdown">
+                                        <li><a href="aboutus.php">About Us</a></li>
+
+
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Service</a>
+                                    <ul class="dropdown">
+                                        <li><a href="fancy.php">Fancy Light</a></li>
+                                        <li><a href="health.php">Healthy Card (NGO) </a></li>
+                                        <li><a href="manpower.php">Manpower</a></li>
+                                        <!-- <li><a href="Save-Water.html">Save Water</a></li>
+                                    <li><a href="Save-Animals.html">Save Animals</a></li>
+                                    <li><a href="Organic-Living.html">Organic Living</a></li>
+                                    <li><a href="Good-Nature.html">Good Nature</a></li> -->
+                                    </ul>
+                                </li>
+
+                                <!-- <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="Campaign-Grid-View.html">Campaign Grid View</a></li>
+                                    <li><a href="Campaign-List-View.html">Campaign List View</a></li>
+                                    <li><a href="Events.html">Events</a></li>
+                                    <li><a href="testimonial.html">Testimonials</a></li>
+                                    <li><a href="faq.html">FAQ’s</a></li>
+                                    <li><a href="error.html">404 Page</a></li>
+                                </ul>
+                            </li> -->
+
+                                <!-- <li><a href="blog-1.html">blog</a>
+                                <ul class="dropdown">
+                                    <li><a href="blog-1.html">Blog Grid View</a></li>
+                                    <li><a href="blog-large.html">Blog With Sidebar</a></li>
+                                    <li><a href="blog-details.html">Single Post</a></li>
+                                </ul>
+                            </li> -->
+
+                                <li><a href="gallery.php">Gallery</a>
+                                    <!-- <ul class="dropdown">
+                                <li><a href="gallery-1.html">gallery Grid View</a></li>
+                                <li><a href="gallery-3.html">gallery manasory</a></li>
+                                <li><a href="single-gallery.html">Single gallery</a></li>
+                             </ul> -->
+                                </li>
+
+                                <!-- <li><a href="#">Shop</a>
+                            <ul class="dropdown">
+                                <li><a href="shop.html">Shop Products</a></li>
+                                <li><a href="shop-single.html">Single Shop</a></li>
+                                <li><a href="shop-cart.html">Shopping Cart</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="account.html">My Account</a></li>
+                            </ul>
+                            </li> -->
+
+                                <li><a href="contact.php">contact</a></li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- <div class="right-column">
+                    <div class="right-area">
+                        <div class="nav_side_content">
+                            <div class="search_option">
+                                <button class="search tran3s dropdown-toggle color1_bg" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                <form action="#" class="dropdown-menu" aria-labelledby="searchDropdown">
+                                    <input type="text" placeholder="Search...">
+                                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                           </div>
+                       </div>
+                    </div>
+                        
+                </div> -->
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+        <div class="inner-banner has-base-color-overlay text-center" style="background: url(images/background/4.jpg);">
+            <div class="container">
+                <div class="box">
+                    <h1>About Us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="breadcumb-wrapper">
+            <div class="container">
+                <div class="pull-left">
+                    <ul class="list-inline link-list">
+                        <li>
+                            <a href="index.php">Home</a>
+                        </li>
+
+                        <li>
+                            about us
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="pull-right">
+            <a href="#" class="get-qoute"><i class="fa fa-arrow-circle-right"></i>Become a Volunteer</a>
+        </div> -->
+            </div>
+        </div>
+
+
+        <section class="about sec-padd2">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Words About Us</h2>
+                    <p>Every voice counts! Choose campaign, International Social Health Organization the world</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <figure class="img-box">
+                            <img src="images/resource/8.jpg" alt="">
+                        </figure>
+                    </div>
+                    <br><br>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="content">
+                            <h2>Together we can make a difference</h2>
+                            <div class="text">
+                                <p style="color: rgb(15, 15, 15);">The International Social Health Organization is dedicated to promoting global health equity. We empower communities through education, advocacy, and sustainable health initiatives. Our mission is to improve access to healthcare, enhance well-being, and foster collaboration for a healthier, more equitable world. </p>
+                            </div>
+
+                            <div class="text">
+                                <p style="color: rgb(19, 20, 20);">The International Social Health Organization promotes global health equity by empowering communities through education, advocacy, and sustainable initiatives for improved access to healthcare and well-being.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="border-bottom"></div>
+        <!-- <section class="our-team sec-padd2">
+    <div class="container">
+        <div class="section-title">
+            <h2>Meat Our team</h2>
+            <a href="#" class="thm-btn style-2">VIEW ALL</a>
+        </div>  
+        <div class="row">
+            <article class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-team-member">
+                    <figure class="img-box">
+                        <a href="#"><img src="images/team/t1.jpg" alt=""></a>
+                        <div class="overlay">
+                            <div class="inner-box">
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                                
+                        </div>
+                    </figure>
+                    <div class="author-info">
+                        <a href="#"><h4>Felicity BNovak</h4></a>
+                        <p>CEO & Founder</p>
+                        <ul>
+                            <li><i class="fa fa-phone-square"></i>Phone: +123-456-7890</li>
+                            <li><i class="fa fa-envelope-square"></i><a href="#">Felicity@Experts.com</a></li>
+                        </ul>
+                    </div>
+                        
+                </div>
+            </article>
+            <article class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-team-member">
+                    <figure class="img-box">
+                        <a href="#"><img src="images/team/t2.jpg" alt=""></a>
+                        <div class="overlay">
+                            <div class="inner-box">
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                                
+                        </div>
+                    </figure>
+                    <div class="author-info">
+                        <a href="#"><h4>Mark Richarson</h4></a>
+                        <p>Board of Trustee</p>
+                        <ul>
+                            <li><i class="fa fa-phone-square"></i>Phone: +123-456-7890</li>
+                            <li><i class="fa fa-envelope-square"></i><a href="#">Felicity@Experts.com</a></li>
+                        </ul>
+                    </div>
+                        
+                </div>
+            </article>
+            <article class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-team-member">
+                    <figure class="img-box">
+                        <a href="#"><img src="images/team/t3.jpg" alt=""></a>
+                        <div class="overlay">
+                            <div class="inner-box">
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                                
+                        </div>
+                    </figure>
+                    <div class="author-info">
+                        <a href="#"><h4>Jom Caraleno</h4></a>
+                        <p>Board of Trustee</p>
+                        <ul>
+                            <li><i class="fa fa-phone-square"></i>Phone: +123-456-7890</li>
+                            <li><i class="fa fa-envelope-square"></i><a href="#">Felicity@Experts.com</a></li>
+                        </ul>
+                    </div>
+                        
+                </div>
+            </article>
+            <article class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-team-member">
+                    <figure class="img-box">
+                        <a href="#"><img src="images/team/t4.jpg" alt=""></a>
+                        <div class="overlay">
+                            <div class="inner-box">
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                                
+                        </div>
+                    </figure>
+                    <div class="author-info">
+                        <a href="#"><h4>Asahtan Marsh</h4></a>
+                        <p>Board of Advisor</p>
+                        <ul>
+                            <li><i class="fa fa-phone-square"></i>Phone: +123-456-7890</li>
+                            <li><i class="fa fa-envelope-square"></i><a href="#">Felicity@Experts.com</a></li>
+                        </ul>
+                    </div>
+                        
+                </div>
+            </article>
+                
+        </div>
+    </div>
+
+</section> -->
+
+
+        <section>
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="text-align:center;" style="text-align: center;">Profile</h2>
+                    <p style="color: black;">Profile of Internation Social help Organizatin
+                        International social health organizations often issue health service cards that provide substantial benefits to cardholders. These cards typically offer discounts ranging from 20% to 50% on medical services, including consultations, treatments, and surgeries. Designed to make healthcare more accessible, the cards aim to reduce the financial burden of medical expenses. By partnering with a network of healthcare providers, these organizations ensure that individuals can receive necessary medical care at reduced costs. The health service card serves as a tool to support better health outcomes by making essential services more affordable and accessible to those in need.
+                    </p>
+                    <h2 style="text-align: center;">GST Solution</h2>
+                    <p style="color: black;">International Social Help Organization, GST No. 09BEWPK0633Q1ZO, provides comprehensive support through various services. They offer a health card providing 20% to 50% discounts on medical services, including operations, lab tests, and X-rays. Their solutions extend to private hospitals and medical stores, ensuring affordable healthcare access. The organization aims to reduce costs and improve health outcomes through its extensive discount network.</p>
+                    <h2 style="text-align: center;">Education</h2>
+                    <p style="color: black;"> If you’re interested in education-related initiatives through ISHO Solutions, here’s how to get involved and benefit from their programs: <br>
+                        1. <b> Contact Us:</b> <br>
+                        o <b>Phone: [Insert Phone Number]</b> <br>
+                        o <b>Email: [Insert Email Address]</b><br>
+                        o <b>Visit Us: [Insert Address in Azamgarh]</b><br>
+                        o <b>Website: [Insert Website URL]</b> <br>
+                        2.<b> Explore Educational Programs:</b> <br>ISHO Solutions may offer a variety of educational services, including:<br>
+                        o Training Workshops: Programs to enhance skills and knowledge.<br>
+                        o Scholarships and Grants: Financial support for students in need.<br>
+                        o Educational Resources: Access to learning materials and resources.<br>
+                        3.<b> Register for Programs: </b>Sign up for available educational programs by providing your details, such as name, contact information, and educational background. <br>
+                        4.<b> Participate and Learn: </b>
+
+                        Engage in the programs and resources provided to advance your education and skills. <br>
+                        5. Stay Connected: Keep in touch for updates on new educational opportunities and support available.
+                        Joining our educational initiatives can help you access valuable resources and support for your learning journey.
+                    </p>
+                    <p style="color: black;">The International Social Help Organization (ISHO), registered under <b> GST No. 09BEWPK0633Q1ZO</b>, offers a range of solutions aimed at making healthcare more accessible and affordable. Their services include: <br>
+                        1.<b> Health Cards:</b><br> Providing 20% to 50% discounts on medical consultations, surgeries, lab tests, and X-rays.<br>
+                        2. <b>Partnerships:</b> <br> Collaborating with private hospitals, medical stores, and diagnostic centers to ensure reduced costs for essential health services.<br>
+                        3.<b> Comprehensive Support:</b><br> Addressing various aspects of healthcare access and affordability to improve health outcomes for individuals in need.
+                        ISHO's initiatives are designed to ease financial burdens and enhance the quality of healthcare services available to the public.<br>
+                        Medical Store , Lab Facility and X-ray 20% to 50%
+                        The International Social Help Organization (ISHO), with<b> GST No. 09BEWPK0633Q1ZO</b>, offers substantial benefits through its health card program. Cardholders receive 20% to 50% discounts on a range of services:<br>
+                        • Private Hospitals: Discounts on medical consultations, surgeries, and other hospital services.<br>
+                        • Medical Stores:<br> Reduced prices on prescription medications and health products.<br>
+                        • Lab Facilities:<br>Savings on diagnostic tests and lab services.<br>
+                        • X-Ray Services:<br> Lower costs for X-ray imaging and related diagnostic procedures.<br>
+                        These discounts are designed to make healthcare more affordable and accessible, improving the overall well-being of cardholders.<br>
+                        Make a Health Card<br>
+                        •Design the Card:<br> Include essential details such as the cardholder’s name, identification number, and expiration date. Ensure the design is user-friendly and secure.<br>
+                        •Define Benefits:<br> Outline the discounts available, such as 20% to 50% on private hospital services, medical store purchases, lab tests, and X-ray procedures.<br>
+                        •Partner with Providers:<br> Establish agreements with private hospitals, medical stores, and diagnostic centers to offer the specified discounts to cardholders.<br>
+                        •Develop a Database: <br>Create a system to manage cardholder information, track usage, and verify eligibility for discounts.<br>
+                        •Distribute Cards:<br> Implement a process for issuing the health cards to eligible individuals, ensuring they receive a comprehensive guide on how to use the card effectively.<br>
+                        •Promote the Card:<br> Inform potential users about the benefits and how to apply for the health card through various channels, such as social media, community outreach, or partnerships with local organizations.<br>
+                        •Monitor and Support:<br> Regularly review the program’s performance, gather feedback, and make adjustments to improve the service.<br>
+                        Contact to Make a Health Card <br>
+                        •Contact Us:<br>
+                        • Phone: Call us at [Your Contact Number].<br>
+                        • Email: Reach out to us at [Your Email Address].<br>
+                        • Website: Visit [Your Website URL] for more information and online inquiries.<br>
+                        •Provide Your Information:<br>
+                        • <b> Name</b><br>
+                        • <b>Contact Details</b><br>
+                        • <b>Address</b><br>
+                        •Request a Health Card:<br>
+                        • Specify the type of benefits and services you are interested in, such as discounts on hospital services, medical store purchases, lab tests, and X-rays.<br>
+                        •Receive Instructions:<br>
+                        • We will provide you with detailed instructions on how to apply for and receive your health card, along with information on partner providers and available discounts.<br>
+                    </p>
+                    <br>
+                    <h2 style="text-align:center ;">ISHO Solutions</h2>
+                    <br>
+                    <p style="color: black;">SHO Solutions, located in Azamgarh, operates under GST No. 09BEWPK0633Q1ZO. This organization is dedicated to providing comprehensive healthcare support through their health card program. Here’s what they offer:<br>
+                        1. Health Card: Provides 20% to 50% discounts on various medical services.<br>
+                        2. Private Hospitals: Discounts on consultations, surgeries, and treatments.<br>
+                        3. Medical Stores: Reduced prices on medications and health products.<br>
+                        4. Lab Facilities: Savings on diagnostic tests and laboratory services.<br>
+                        5. X-Ray Services: Lower costs for X-ray imaging and diagnostic procedures.
+                        For more information or to apply for a health card, you can contact ISHO Solutions through:<br>
+                        • Phone: [Insert Phone Number]<br>
+                        • Email: [Insert Email Address]<br>
+                        • Address: [Insert Office Address in Azamgarh]<br>
+                        • Website: [Insert Website URL, if available]<br>
+                        To join our community and benefit from ISHO<br>
+                        1. <b> Contact Us:</b><br>
+                        o <b>Phone: [Insert Phone Number]</b><br>
+                        o <b>Email: [Insert Email Address]</b><br>
+                        o <b>Visit Us: [Insert Address in Azamgarh]</b><br>
+                        o <b>Website: [Insert Website URL]</b><br>
+                        2.<b> Register: </b>Provide your details to become a member. This may include your name, contact information, and any relevant personal details.<br>
+                        3.<b> Receive Your Health Card:</b> Once registered, you will receive a health card granting you access to discounts ranging from 20% to 50% on medical services, including private hospital treatments, medical store purchases, lab tests, and X-ray services.<br>
+                        4.<b> Start Enjoying Benefits:</b> Use your health card at partnered hospitals, medical stores, and diagnostic centers to access the discounts and services available.<br>
+                        5. <b> Get Support:</b> If you have any questions or need assistance, feel free to reach out to our support team through the provided contact details.<br>
+                        By joining our community, you gain access to affordable healthcare solutions and a network dedicated to improving your well-being.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-chooseus style-2 sec-padd-top">
+            <div class="container">
+
+                <div class="">
+                    <div class="section-title">
+                        <h2 style="text-align: center;">Why Choose Us</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <div class="inner-box">
+                                    <!--icon-box-->
+                                    <div class="icon_box">
+                                        <span class="icon-star"></span>
+                                    </div>
+                                    <a href="#">
+                                        <h4>Most Trusted One</h4>
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <p style="color: black;">The most trusted one prioritizes integrity, transparency, and reliability, ensuring consistent support for our communities. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <div class="inner-box">
+                                    <!--icon-box-->
+                                    <div class="icon_box">
+                                        <span class="icon-people-1"></span>
+                                    </div>
+                                    <a href="#">
+                                        <h4>Good will Healthy</h4>
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <p style="color: black;">Goodwill fosters healthy relationships, promotes community support, and encourages positive mental and emotional well-being. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <div class="inner-box">
+                                    <!--icon-box-->
+                                    <div class="icon_box">
+                                        <span class="icon-medal"></span>
+                                    </div>
+                                    <a href="#">
+                                        <h4>Collaboration</h4>
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <p style="color: black;">We work alongside communities to address their unique health challenges </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <div class="inner-box">
+                                    <!--icon-box-->
+                                    <div class="icon_box">
+                                        <span class="icon-shapes"></span>
+                                    </div>
+                                    <a href="#">
+                                        <h4>20 Years Experince</h4>
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <p style="color: black;">Your contrbution used locally to help charitable causes and support the organization, Support only for good causes. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="testimonials-section2 sec-padd" style="background-color: rgb(23, 139, 206);">
+            <div class="container">
+
+                <div class="section-title center">
+                    <h1>What People Say About Us</h1>
+                </div>
+
+                <!--Slider-->
+                <div class="testimonials-slider2">
+
+                    <!--Slide-->
+                    <article class="slide-item center">
+
+                        <div class="slide-text">
+                            <span class="icon-null"></span>
+                            <p>"People appreciate our dedication, compassion, and impact on community health. We empower individuals and through collaborative efforts."</p>
+                        </div>
+                        <ul class="rating">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <div class="author">
+                            <h4> Sonu</h4>
+
+                        </div>
+                    </article>
+                    <!--Slide-->
+                    <article class="slide-item center">
+
+                        <div class="slide-text">
+                            <span class="icon-null"></span>
+                            <p>"Clients commend our commitment to health, praising our transparency, expertise, and the positive outcomes we achieve together."</p>
+                        </div>
+                        <ul class="rating">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star-half-o"></i></li>
+                        </ul>
+                        <div class="author">
+                            <h4>Nathan </h4>
+
+                        </div>
+                    </article>
+                    <!--Slide-->
+                    <article class="slide-item center">
+
+                        <div class="slide-text">
+                            <span class="icon-null"></span>
+                            <p> "Community members value our reliable support and innovative programs, recognizing our role in improving health and well-being."</p>
+                        </div>
+                        <ul class="rating">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <div class="author">
+                            <h4> Jimmy</h4>
+
+                        </div>
+                    </article>
+
+
+                </div>
+
+                <div class="donate-us center">
+                    <h2>We are ISHO, Our Mission is <span class="text-color:white;"> Save Health and environment</span> <br>our activities are taken around the world.</h2><br>
+                    <button class="thm-btn donate-box-btn">donate now</button>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <div class="border-bottom"></div>
+
+
+
+
+        <section class="call-out">
+            <div class="container">
+                <div class="float_left">
+                    <h4>Join Our Mission to Improve a Child's Feature, Life and Our Health.</h4>
+                </div>
+                <div class="float_right">
+
+                    <a href="tel:+917752941777" class="thm-btn style-3">Get Involeved</a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <?php include 'footer.php';
+        ?>
+
+        <!-- Scroll Top  -->
+        <button class="scroll-top tran3s color2_bg"><span class="fa fa-angle-up"></span></button>
+        <!-- preloader  -->
+
+        <div id="donate-popup" class="donate-popup">
+            <div class="close-donate theme-btn"><span class="fa fa-close"></span></div>
+            <div class="popup-inner">
+
+
+                <div class="container">
+                    <div class="donate-form-area">
+                        <div class="section-title center">
+                            <h2>Donation Information</h2>
+                        </div>
+
+                        <h4>How much would you like to donate:</h4>
+
+                        <form action="#" class="donate-form default-form">
+                            <ul class="chicklet-list clearfix">
+                                <li>
+                                    <input type="radio" id="donate-amount-1" name="donate-amount" />
+                                    <label for="donate-amount-1" data-amount="1000">$1000</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="donate-amount-2" name="donate-amount" checked="checked" />
+                                    <label for="donate-amount-2" data-amount="2000">$2000</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="donate-amount-3" name="donate-amount" />
+                                    <label for="donate-amount-3" data-amount="3000">$3000</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="donate-amount-4" name="donate-amount" />
+                                    <label for="donate-amount-4" data-amount="4000">$4000</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="donate-amount-5" name="donate-amount" />
+                                    <label for="donate-amount-5" data-amount="5000">$5000</label>
+                                </li>
+                                <li class="other-amount">
+
+                                    <div class="input-container" data-message="Every dollar you donate helps end hunger.">
+                                        <span>Or</span><input type="text" id="other-amount" placeholder="Other Amount" />
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <h3>Donor Information</h3>
+
+                            <div class="form-bg">
+                                <div class="row clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+
+                                        <div class="form-group">
+                                            <p>Your Name*</p>
+                                            <input type="text" name="fname" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <p>Email*</p>
+                                            <input type="text" name="fname" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <p>Address*</p>
+                                            <input type="text" name="fname" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <p>Phn Num*</p>
+                                            <input type="text" name="fname" placeholder="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <ul class="payment-option">
+                                <li>
+                                    <h4>Choose your payment method:</h4>
+                                </li>
+                                <li>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input name="pay-us" type="checkbox">
+                                            <span>Paypal</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input name="pay-us" type="checkbox">
+                                            <span>Offline Donation</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input name="pay-us" type="checkbox">
+                                            <span>Credit Card</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input name="pay-us" type="checkbox">
+                                            <span>Debit Card</span>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="center"><button class="thm-btn" type="submit">Donate Now</button></div>
+
+
+                        </form>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.mixitup.min.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/imagezoom.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.polyglot.language.switcher.js"></script>
+        <script src="js/SmoothScroll.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+        <script src="js/validation.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/nouislider.js"></script>
+        <script src="js/isotope.js"></script>
+        <script src="js/pie-chart.js"></script>
+
+
+        <!-- revolution slider js -->
+        <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
+        <script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+        <script src="js/rev-slider/revolution.extension.actions.min.js"></script>
+        <script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
+        <script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
+        <script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
+        <script src="js/rev-slider/revolution.extension.migration.min.js"></script>
+        <script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
+        <script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
+        <script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
+        <script src="js/rev-slider/revolution.extension.video.min.js"></script>
+
+
+        <script src="js/custom.js"></script>
+
+        </div>
+
+</body>
+
+</html>

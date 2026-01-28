@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Invoice Generator</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!--[if IE 6]><link type="text/css" rel="stylesheet" href="css/ie6.css"/><![endif]-->
+<!--[if IE 7]><link type="text/css" rel="stylesheet" href="css/ie7.css"/><![endif]-->
+<!--[if IE 8]><link type="text/css" rel="stylesheet" href="css/ie8.css"/><![endif]-->
+</head>
+<body>
+<header>
+<div id="header">
+<div class="container"><h1>PDF Invoice Generator PHP</h1>
+</div>
+</div>
+</header>
+<section class="container">
+<div id="container">
+<form action="invoice.php" method="post" id="formInvoice">
+<fieldset id="customer_data">
+<legend>Customer Data</legend>
+<p class="item_form">
+<label for="customer[num]">Company Name</label><br />
+<input type="text" name="companyName" id="customer[num]" class="text_input" placeholder="Digital Vision Technology Pvt. Ltd." required>
+</p>
+<p class="item_form">
+<label for="customer[name]">Customer Name</label><br />
+<input type="text" name="customerName" id="customer[name]" class="text_input" placeholder="Ashish Jain" required>
+</p>
+<p class="item_form">
+<label for="customer[address]">Address</label><br />
+<input type="text" name="address" id="customer[address]" class="text_input" placeholder="Noida Sec 2" required>
+</p>
+<br clear="all">
+</fieldset>
+
+
+<p class="invoce_num">
+<label for="invoce_num">Invoice No</label><br />
+<input type="text" name="invoiceNumber" id="invoce_num" class="txt_invoce_num" placeholder="64961364" required>
+</p>
+
+<p class="date">
+<label for="date">Date</label><br />
+<input type="date" name="date" id="date" class="txt_date" value="2017-03-30" required>
+</p>
+
+<p class="payment_m">
+<label for="payment_m" style="width:120px;">Payment Method</label><br />
+<input type="text" name="paymentMethod" id="payment_m" class="txt_payment_m" value="PayPal" required>
+</p>
+
+<p class="payment_m">
+<label for="payment_m" style="width:120px;">Amount In Words</label><br />
+<input type="text" name="amountInWords" id="payment_m" class="txt_payment_m" value="Ten Thousand" required>
+</p>
+
+
+<input type="submit" id="generate" value="Generate PDF">
+<!--<a href="#" id="addproduct">+ add product</a>-->
+
+<br clear="all" /><br />
+<table id="list" cellpadding="0" cellspacing="0" width="980">
+<thead>
+<tr>
+<th width="15">Type</th>
+<th align="left">Description</th>
+<th width="90" align="left">Price</th>
+<th width="15"></th>
+</tr>
+</thead>
+
+<tbody id="row-0">
+<tr>
+<td align="center"><input type="text" name="productSerialNo1" id="products[0][type]" class="txt_type" maxlength="1" value="1"></td>
+<td><input type="text" name="productsDes1" id="products[0][description]" class="txt_name" placeholder="Product Description 1" required></td>
+<td><input type="text" name="productsPrice1" id="products[0][price]" class="txt_price" maxlength="7" value="100" required></td>
+<td><a onclick="$('#row-0').remove();" class="delete">X</a></td>
+</tr>
+</tbody>
+
+<tbody id="row-0">
+<tr>
+<td align="center"><input type="text" name="productSerialNo2" id="products[0][type]" class="txt_type" maxlength="1" value="2"></td>
+<td><input type="text" name="productsDes2" id="products[0][description]" class="txt_name" placeholder="Product Description 2"></td>
+<td><input type="text" name="productsPrice2" id="products[0][price]" class="txt_price" maxlength="7" value="100"></td>
+<td><a onclick="$('#row-1').remove();" class="delete">X</a></td>
+</tr>
+</tbody>
+
+<tfoot>
+</tfoot>
+</table>
+</form>
+
+</div>
+</section>
+<br /> <br />
+<footer><div id="footer"></div></footer>
+
+
+
+
+<div id="modal"></div>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script>
+(function($) {
+var row_num=8;
+$("#addproduct").click(function(e){
+	e.preventDefault();
+	var html='<tbody id="row-'+row_num+'">'+
+	'<tr>'+
+	'<td align="center"><input type="text" name="products['+row_num+'][type]" id="products['+row_num+'][type]" class="txt_type" maxlength="1" value="P"></td>'+
+	'<td><input type="text" name="products['+row_num+'][description]" id="products['+row_num+'][description]" class="txt_name" value="Product example: 33'+row_num+' (EN)"></td>'+
+	'<td align="center"><input type="text" name="products['+row_num+'][quantity]" id="products['+row_num+'][quantity]" class="txt_quantity" maxlength="3" value="1"></td>'+
+	'<td><input type="text" name="products['+row_num+'][price]" id="products['+row_num+'][price]" class="txt_price" maxlength="7" value="2.54"> $</td>'+
+	'<td><a onclick="$(\'#row-'+row_num+'\').remove();" class="delete">X</a></td>'+
+	'</tr>'+
+	'</tbody>';
+	$('#list thead').after(html);
+	row_num++;
+});
+	
+$('#modal,#close_modal').live('click',function(){
+	$('#modal').hide();
+	$('#modal_box').hide();
+	$('#modal_box').html(txt_redir+loader)
+});
+function loadModal(v){
+		if(v==false && $('#modal').css('display')=='none'){
+		return false;
+		}
+	    var box = $('#modal_box');
+		var box_w = 300;
+		var box_h = 200;
+		var winH = $(document).height();
+        var winBoxH = $(window).height();
+	    var winW = $(window).width();
+        $('#modal').css({'width':winW,'height':winH});
+		box.css({'width':box_w,'height':box_h,'top':(winBoxH/2 - box_h/2),'left':(winW/2 - box_w/2)});
+		$('#modal').fadeIn();
+		$('#modal_box').fadeIn();
+		$('#modal_box').html();
+		
+}
+$(window).resize(function () {
+ 		loadModal(false);
+});
+}(jQuery));
+</script>
+</body>
+</html>
